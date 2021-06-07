@@ -609,3 +609,1854 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-20.01.19:779][  0]LogHMD: Failed to initialize OpenVR with code 101
 [2021.06.07-20.01.19:779][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
 [2021.06.07-20.01.19:790][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2021.06.07-20.01.20:235][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.07-20.01.20:332][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.07-20.01.20:355][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.06.07-20.01.20:385][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.06.07-20.01.20:385][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.01.20:387][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.01.20:388][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.01.20:394][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.01.20:394][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.01.20:513][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.01.20:513][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.01.20:686][  0]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.01.20:693][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.01.20:728][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.01.20:729][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.01.20:733][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.01.20:733][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.01.20:734][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.01.20:735][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.01.20:735][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.01.20:735][  0]LogInit: FAudioDevice initialized.
+[2021.06.07-20.01.20:737][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.06.07-20.01.20:739][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.07-20.01.20:799][  0]LogDerivedDataCache: Saved boot cache 0.06s 81MB C:/Users/marty/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.07-20.01.20:805][  0]LogInit: Texture streaming: Enabled
+[2021.06.07-20.01.20:898][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.06.07-20.01.20:932][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.07-20.01.20:932][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.07-20.01.20:937][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.07-20.01.21:088][  0]LogInit: Transaction tracking system initialized
+[2021.06.07-20.01.21:321][  0]BlueprintLog: New page: Editor Load
+[2021.06.07-20.01.22:058][  0]LocalizationService: Localization service is disabled
+[2021.06.07-20.01.22:279][  0]TimingProfiler: Initialize
+[2021.06.07-20.01.22:282][  0]TimingProfiler: OnSessionChanged
+[2021.06.07-20.01.22:283][  0]LoadingProfiler: Initialize
+[2021.06.07-20.01.22:283][  0]LoadingProfiler: OnSessionChanged
+[2021.06.07-20.01.22:284][  0]NetworkingProfiler: Initialize
+[2021.06.07-20.01.22:285][  0]NetworkingProfiler: OnSessionChanged
+[2021.06.07-20.01.22:285][  0]MemoryProfiler: Initialize
+[2021.06.07-20.01.22:285][  0]MemoryProfiler: OnSessionChanged
+[2021.06.07-20.01.23:175][  0]LogFileCache: Scanning file cache for directory 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/' took 0.01s
+[2021.06.07-20.01.23:175][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.06.07-20.01.23:176][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.07-20.01.24:813][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.06.07-20.01.24:831][  0]SourceControl: Source control is disabled
+[2021.06.07-20.01.24:833][  0]LogUnrealEdMisc: Loading editor; pre map load, took 37.843
+[2021.06.07-20.01.24:838][  0]Cmd: MAP LOAD FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.07-20.01.24:841][  0]LightingResults: New page: Lighting Build
+[2021.06.07-20.01.24:858][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.01.24:862][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.01.24:870][  0]MapCheck: New page: Map Check
+[2021.06.07-20.01.24:870][  0]LightingResults: New page: Lighting Build
+[2021.06.07-20.01.24:923][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.06.07-20.01.25:273][  0]LogTexture: Display: Building textures: DeprecatedTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.01.25:280][  0]LogTexture: Display: Building textures: DeprecatedTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.01.25:324][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.01.25:326][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.01.25:401][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.07-20.01.25:430][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.06.07-20.01.25:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.07-20.01.25:434][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,44ms to complete.
+[2021.06.07-20.01.25:434][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.601
+[2021.06.07-20.01.25:483][  0]LogUnrealEdMisc: Total Editor Startup Time, took 38.495
+[2021.06.07-20.01.25:553][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.07-20.01.25:694][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0101 seconds. Added 3601 classes and 859 folders.
+[2021.06.07-20.01.25:707][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.07-20.01.25:741][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.07-20.01.25:741][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:741][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.07-20.01.25:742][  0]LogPakFile: OnPakFileMounted2Time == 0.000308
+[2021.06.07-20.01.25:757][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.07-20.01.25:757][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:757][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.07-20.01.25:757][  0]LogPakFile: OnPakFileMounted2Time == 0.000312
+[2021.06.07-20.01.25:766][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.06.07-20.01.25:766][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:766][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.06.07-20.01.25:766][  0]LogPakFile: OnPakFileMounted2Time == 0.000315
+[2021.06.07-20.01.25:774][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.07-20.01.25:774][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:774][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.07-20.01.25:774][  0]LogPakFile: OnPakFileMounted2Time == 0.000319
+[2021.06.07-20.01.25:783][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.07-20.01.25:783][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:783][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.07-20.01.25:783][  0]LogPakFile: OnPakFileMounted2Time == 0.000325
+[2021.06.07-20.01.25:792][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.07-20.01.25:793][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:793][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.07-20.01.25:793][  0]LogPakFile: OnPakFileMounted2Time == 0.000344
+[2021.06.07-20.01.25:801][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.07-20.01.25:801][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:801][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.07-20.01.25:801][  0]LogPakFile: OnPakFileMounted2Time == 0.000348
+[2021.06.07-20.01.25:812][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.07-20.01.25:812][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:812][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.07-20.01.25:812][  0]LogPakFile: OnPakFileMounted2Time == 0.000352
+[2021.06.07-20.01.25:824][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.07-20.01.25:824][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:824][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.07-20.01.25:824][  0]LogPakFile: OnPakFileMounted2Time == 0.000356
+[2021.06.07-20.01.25:832][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.07-20.01.25:832][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:832][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.07-20.01.25:832][  0]LogPakFile: OnPakFileMounted2Time == 0.000360
+[2021.06.07-20.01.25:840][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.07-20.01.25:840][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:840][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.07-20.01.25:840][  0]LogPakFile: OnPakFileMounted2Time == 0.000364
+[2021.06.07-20.01.25:849][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.07-20.01.25:849][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:849][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.07-20.01.25:849][  0]LogPakFile: OnPakFileMounted2Time == 0.000368
+[2021.06.07-20.01.25:857][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.07-20.01.25:857][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:857][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.07-20.01.25:857][  0]LogPakFile: OnPakFileMounted2Time == 0.000372
+[2021.06.07-20.01.25:864][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.07-20.01.25:864][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:864][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.07-20.01.25:864][  0]LogPakFile: OnPakFileMounted2Time == 0.000376
+[2021.06.07-20.01.25:875][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.07-20.01.25:875][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:875][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.07-20.01.25:875][  0]LogPakFile: OnPakFileMounted2Time == 0.000379
+[2021.06.07-20.01.25:884][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.07-20.01.25:884][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:884][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.07-20.01.25:884][  0]LogPakFile: OnPakFileMounted2Time == 0.000383
+[2021.06.07-20.01.25:891][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.07-20.01.25:892][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:892][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.07-20.01.25:892][  0]LogPakFile: OnPakFileMounted2Time == 0.000387
+[2021.06.07-20.01.25:900][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.07-20.01.25:900][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:900][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.07-20.01.25:900][  0]LogPakFile: OnPakFileMounted2Time == 0.000392
+[2021.06.07-20.01.25:908][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.07-20.01.25:908][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:908][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.07-20.01.25:908][  0]LogPakFile: OnPakFileMounted2Time == 0.000395
+[2021.06.07-20.01.25:920][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.07-20.01.25:920][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:920][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.07-20.01.25:920][  0]LogPakFile: OnPakFileMounted2Time == 0.000399
+[2021.06.07-20.01.25:926][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.07-20.01.25:926][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:926][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.07-20.01.25:926][  0]LogPakFile: OnPakFileMounted2Time == 0.000403
+[2021.06.07-20.01.25:934][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.07-20.01.25:934][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:934][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.07-20.01.25:934][  0]LogPakFile: OnPakFileMounted2Time == 0.000408
+[2021.06.07-20.01.25:942][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.06.07-20.01.25:943][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:943][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.06.07-20.01.25:943][  0]LogPakFile: OnPakFileMounted2Time == 0.000412
+[2021.06.07-20.01.25:950][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.07-20.01.25:950][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:950][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.07-20.01.25:950][  0]LogPakFile: OnPakFileMounted2Time == 0.000415
+[2021.06.07-20.01.25:960][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.07-20.01.25:960][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:960][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.07-20.01.25:960][  0]LogPakFile: OnPakFileMounted2Time == 0.000419
+[2021.06.07-20.01.25:968][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.07-20.01.25:968][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.07-20.01.25:968][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.07-20.01.25:968][  0]LogPakFile: OnPakFileMounted2Time == 0.000423
+[2021.06.07-20.01.26:384][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.07-20.01.26:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.01.26:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.01.26:562][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.01.26:569][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.01.26:578][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.06.07-20.01.26:641][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.06.07-20.01.27:625][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.07-20.01.27:722][  0]LogSlate: Took 0.009141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.07-20.01.27:736][  0]LogSlate: Took 0.009300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.07-20.01.28:004][  0]LogRenderer: Reallocating scene render targets to support 1228x924 Format 10 NumSamples 1 (Frame:1).
+[2021.06.07-20.01.28:263][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.06.07-20.01.28:264][  0]LogLoad: (Engine Initialization) Total time: 41.28 seconds
+[2021.06.07-20.01.28:264][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.07-20.01.28:264][  0]LogInit: First time updating LLM stats...
+[2021.06.07-20.01.28:344][  0]LogAssetRegistry: Asset discovery search completed in 22.8056 seconds
+[2021.06.07-20.01.28:347][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000287 seconds (updated 0 objects)
+[2021.06.07-20.01.28:398][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2021.06.07-20.01.29:314][ 47]LogSlate: Took 0.007383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.07-20.01.33:038][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_4)
+[2021.06.07-20.01.33:157][263]LogSlate: Took 0.008451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.07-20.01.33:902][303]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ground)
+[2021.06.07-20.01.35:307][383]Cmd: DELETE
+[2021.06.07-20.01.35:307][383]Cmd: ACTOR DELETE
+[2021.06.07-20.01.35:329][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.35:333][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.35:340][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.07-20.01.35:341][383]LogEditorActor: Deleted 2 Actors (0.026 secs)
+[2021.06.07-20.01.35:904][417]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume5)
+[2021.06.07-20.01.36:931][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_41)
+[2021.06.07-20.01.37:282][491]Cmd: DELETE
+[2021.06.07-20.01.37:282][491]Cmd: ACTOR DELETE
+[2021.06.07-20.01.37:286][491]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.37:292][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.06.07-20.01.37:292][491]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.37:783][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_37)
+[2021.06.07-20.01.37:878][522]Cmd: DELETE
+[2021.06.07-20.01.37:878][522]Cmd: ACTOR DELETE
+[2021.06.07-20.01.37:881][522]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.37:887][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.06.07-20.01.37:887][522]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.38:264][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_38)
+[2021.06.07-20.01.38:411][550]Cmd: DELETE
+[2021.06.07-20.01.38:411][550]Cmd: ACTOR DELETE
+[2021.06.07-20.01.38:414][550]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.38:420][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.06.07-20.01.38:421][550]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.38:925][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_39)
+[2021.06.07-20.01.39:005][582]Cmd: DELETE
+[2021.06.07-20.01.39:005][582]Cmd: ACTOR DELETE
+[2021.06.07-20.01.39:008][582]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.39:014][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.06.07-20.01.39:015][582]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.40:071][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube38)
+[2021.06.07-20.01.40:211][650]Cmd: DELETE
+[2021.06.07-20.01.40:211][650]Cmd: ACTOR DELETE
+[2021.06.07-20.01.40:213][650]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.40:221][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.06.07-20.01.40:222][650]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2021.06.07-20.01.40:835][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_71)
+[2021.06.07-20.01.42:844][803]Cmd: DELETE
+[2021.06.07-20.01.42:844][803]Cmd: ACTOR DELETE
+[2021.06.07-20.01.42:847][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.42:853][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.07-20.01.42:855][803]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2021.06.07-20.01.43:425][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_66)
+[2021.06.07-20.01.43:573][842]Cmd: DELETE
+[2021.06.07-20.01.43:573][842]Cmd: ACTOR DELETE
+[2021.06.07-20.01.43:576][842]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.43:582][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.06.07-20.01.43:582][842]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.43:990][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_67)
+[2021.06.07-20.01.44:137][872]Cmd: DELETE
+[2021.06.07-20.01.44:137][872]Cmd: ACTOR DELETE
+[2021.06.07-20.01.44:139][872]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.44:146][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.06.07-20.01.44:146][872]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.44:553][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_68)
+[2021.06.07-20.01.44:730][904]Cmd: DELETE
+[2021.06.07-20.01.44:730][904]Cmd: ACTOR DELETE
+[2021.06.07-20.01.44:734][904]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.44:740][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.44:740][904]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.45:110][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_70)
+[2021.06.07-20.01.45:151][926]Cmd: DELETE
+[2021.06.07-20.01.45:151][926]Cmd: ACTOR DELETE
+[2021.06.07-20.01.45:154][926]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.45:160][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.06.07-20.01.45:161][926]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.45:769][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_32)
+[2021.06.07-20.01.46:365][994]Cmd: DELETE
+[2021.06.07-20.01.46:365][994]Cmd: ACTOR DELETE
+[2021.06.07-20.01.46:368][994]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.46:374][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.07-20.01.46:374][994]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.46:812][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_69)
+[2021.06.07-20.01.46:926][ 24]Cmd: DELETE
+[2021.06.07-20.01.46:926][ 24]Cmd: ACTOR DELETE
+[2021.06.07-20.01.46:929][ 24]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.46:935][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.06.07-20.01.46:936][ 24]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.47:346][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_27)
+[2021.06.07-20.01.47:461][ 52]Cmd: DELETE
+[2021.06.07-20.01.47:461][ 52]Cmd: ACTOR DELETE
+[2021.06.07-20.01.47:464][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.47:470][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.06.07-20.01.47:470][ 52]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.47:828][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_28)
+[2021.06.07-20.01.47:938][ 77]Cmd: DELETE
+[2021.06.07-20.01.47:938][ 77]Cmd: ACTOR DELETE
+[2021.06.07-20.01.47:941][ 77]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.47:947][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.47:948][ 77]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.48:408][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_29)
+[2021.06.07-20.01.48:503][107]Cmd: DELETE
+[2021.06.07-20.01.48:503][107]Cmd: ACTOR DELETE
+[2021.06.07-20.01.48:506][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.48:511][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.07-20.01.48:512][107]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.48:939][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2021.06.07-20.01.49:075][138]Cmd: DELETE
+[2021.06.07-20.01.49:075][138]Cmd: ACTOR DELETE
+[2021.06.07-20.01.49:078][138]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.49:084][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.06.07-20.01.49:084][138]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.49:341][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube15)
+[2021.06.07-20.01.49:468][158]Cmd: DELETE
+[2021.06.07-20.01.49:468][158]Cmd: ACTOR DELETE
+[2021.06.07-20.01.49:471][158]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.49:477][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.07-20.01.49:478][158]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.49:786][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube14)
+[2021.06.07-20.01.49:948][183]Cmd: DELETE
+[2021.06.07-20.01.49:948][183]Cmd: ACTOR DELETE
+[2021.06.07-20.01.49:951][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.49:956][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.07-20.01.49:957][183]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.50:366][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube13)
+[2021.06.07-20.01.50:476][211]Cmd: DELETE
+[2021.06.07-20.01.50:476][211]Cmd: ACTOR DELETE
+[2021.06.07-20.01.50:478][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.50:484][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.07-20.01.50:485][211]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.50:759][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube12)
+[2021.06.07-20.01.50:890][232]Cmd: DELETE
+[2021.06.07-20.01.50:890][232]Cmd: ACTOR DELETE
+[2021.06.07-20.01.50:892][232]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.50:898][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.07-20.01.50:899][232]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.51:335][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_30)
+[2021.06.07-20.01.51:404][259]Cmd: DELETE
+[2021.06.07-20.01.51:404][259]Cmd: ACTOR DELETE
+[2021.06.07-20.01.51:407][259]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.51:413][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.07-20.01.51:414][259]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.51:802][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_26)
+[2021.06.07-20.01.51:884][284]Cmd: DELETE
+[2021.06.07-20.01.51:884][284]Cmd: ACTOR DELETE
+[2021.06.07-20.01.51:887][284]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.51:892][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.06.07-20.01.51:893][284]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.52:210][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube11)
+[2021.06.07-20.01.52:322][306]Cmd: DELETE
+[2021.06.07-20.01.52:322][306]Cmd: ACTOR DELETE
+[2021.06.07-20.01.52:324][306]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.52:330][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.52:330][306]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.52:716][329]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube6)
+[2021.06.07-20.01.52:787][330]Cmd: DELETE
+[2021.06.07-20.01.52:787][330]Cmd: ACTOR DELETE
+[2021.06.07-20.01.52:790][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.52:797][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.06.07-20.01.52:798][330]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2021.06.07-20.01.53:059][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2021.06.07-20.01.53:120][346]Cmd: DELETE
+[2021.06.07-20.01.53:120][346]Cmd: ACTOR DELETE
+[2021.06.07-20.01.53:123][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.53:129][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2021.06.07-20.01.53:130][346]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.53:568][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_21)
+[2021.06.07-20.01.53:635][373]Cmd: DELETE
+[2021.06.07-20.01.53:635][373]Cmd: ACTOR DELETE
+[2021.06.07-20.01.53:638][373]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.53:645][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.53:646][373]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2021.06.07-20.01.54:068][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_22)
+[2021.06.07-20.01.54:130][399]Cmd: DELETE
+[2021.06.07-20.01.54:130][399]Cmd: ACTOR DELETE
+[2021.06.07-20.01.54:132][399]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.54:138][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.07-20.01.54:139][399]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.54:531][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2021.06.07-20.01.54:613][423]Cmd: DELETE
+[2021.06.07-20.01.54:614][423]Cmd: ACTOR DELETE
+[2021.06.07-20.01.54:617][423]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.54:623][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.07-20.01.54:624][423]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.54:905][439]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2021.06.07-20.01.54:983][441]Cmd: DELETE
+[2021.06.07-20.01.54:983][441]Cmd: ACTOR DELETE
+[2021.06.07-20.01.54:986][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.54:992][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.07-20.01.54:993][441]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.55:592][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube23)
+[2021.06.07-20.01.55:685][480]Cmd: DELETE
+[2021.06.07-20.01.55:686][480]Cmd: ACTOR DELETE
+[2021.06.07-20.01.55:688][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.55:694][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.06.07-20.01.55:694][480]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.56:037][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_23)
+[2021.06.07-20.01.56:121][503]Cmd: DELETE
+[2021.06.07-20.01.56:121][503]Cmd: ACTOR DELETE
+[2021.06.07-20.01.56:124][503]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.56:129][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.56:130][503]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.56:744][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube22)
+[2021.06.07-20.01.56:926][548]Cmd: DELETE
+[2021.06.07-20.01.56:926][548]Cmd: ACTOR DELETE
+[2021.06.07-20.01.56:929][548]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.56:934][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.01.56:935][548]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.57:457][579]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2021.06.07-20.01.57:543][581]Cmd: DELETE
+[2021.06.07-20.01.57:543][581]Cmd: ACTOR DELETE
+[2021.06.07-20.01.57:546][581]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.01.57:551][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.06.07-20.01.57:552][581]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.01.58:268][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2021.06.07-20.01.58:334][625]Cmd: DELETE
+[2021.06.07-20.01.58:334][625]Cmd: ACTOR DELETE
+[2021.06.07-20.01.58:338][625]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.01.58:343][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.06.07-20.01.58:345][625]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.01.59:091][669]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2021.06.07-20.02.00:485][749]Cmd: DELETE
+[2021.06.07-20.02.00:485][749]Cmd: ACTOR DELETE
+[2021.06.07-20.02.00:488][749]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.00:494][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.07-20.02.00:494][749]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2021.06.07-20.02.01:078][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_3)
+[2021.06.07-20.02.01:195][788]Cmd: DELETE
+[2021.06.07-20.02.01:195][788]Cmd: ACTOR DELETE
+[2021.06.07-20.02.01:197][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.01:203][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.07-20.02.01:203][788]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2021.06.07-20.02.01:863][827]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.02.04:051][956]Cmd: DELETE
+[2021.06.07-20.02.04:051][956]Cmd: ACTOR DELETE
+[2021.06.07-20.02.04:054][956]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2021.06.07-20.02.04:060][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.06.07-20.02.04:061][956]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2021.06.07-20.02.05:233][ 26]Cmd: TRANSACTION UNDO
+[2021.06.07-20.02.05:233][ 26]LogEditorTransaction: Undo Delete Actors
+[2021.06.07-20.02.06:418][ 87]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube30)
+[2021.06.07-20.02.12:613][448]Cmd: DELETE
+[2021.06.07-20.02.12:613][448]Cmd: ACTOR DELETE
+[2021.06.07-20.02.12:616][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:617][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:617][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:617][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:617][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:617][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:618][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:619][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:619][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:619][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.12:625][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.07-20.02.12:626][448]LogEditorActor: Deleted 15 Actors (0.013 secs)
+[2021.06.07-20.02.16:426][672]Cmd: DELETE
+[2021.06.07-20.02.16:426][672]Cmd: ACTOR DELETE
+[2021.06.07-20.02.16:430][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:431][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:431][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:431][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:431][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:432][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:432][672]LogEditorActor: Deleted Actor: BlockingVolume
+[2021.06.07-20.02.16:437][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2021.06.07-20.02.16:438][672]LogEditorActor: Deleted 7 Actors (0.012 secs)
+[2021.06.07-20.02.27:629][338]Cmd: DELETE
+[2021.06.07-20.02.27:629][338]Cmd: ACTOR DELETE
+[2021.06.07-20.02.27:634][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:634][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:634][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:634][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:635][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:636][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:637][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:637][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:637][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:637][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:638][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:638][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:638][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:638][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:638][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:639][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:639][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:639][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:639][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:640][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:640][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:640][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:641][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:641][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:641][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.02.27:648][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.06.07-20.02.27:649][338]LogEditorActor: Deleted 35 Actors (0.020 secs)
+[2021.06.07-20.02.30:386][502]LogEditorViewport: Clicking on Actor (LMB): BP_Room_C (BP_Room)
+[2021.06.07-20.02.31:068][539]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Room_C (BP_Room2)
+[2021.06.07-20.02.31:714][573]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Room_C (BP_Room3)
+[2021.06.07-20.02.32:844][627]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Ball_C (PhysicsBallBP)
+[2021.06.07-20.02.49:564][485]LogActorFactory: Actor Factory created Cube
+[2021.06.07-20.02.50:867][562]LogActorFactory: Actor Factory created Cube
+[2021.06.07-20.03.43:714][707]LogEditorViewport: Clicking on Actor (LMB): BP_Room_C (BP_Room)
+[2021.06.07-20.03.44:491][743]LogSlate: Took 0.007024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.07-20.03.46:182][840]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RollingBP/Blueprints/BP_Room.BP_Room
+[2021.06.07-20.03.47:014][840]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.06.07-20.03.48:580][840]LogSlate: Took 0.006653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.07-20.03.50:059][917]LogSlate: Window 'BP_Room' being destroyed
+[2021.06.07-20.03.58:883][404]LogContentBrowser: Attempting asset rename: BP_Room -> BP_CameraFocus
+[2021.06.07-20.03.58:906][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:906][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus_C' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:906][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.SKEL_BP_CameraFocus_C:BndEvt__BP_Room_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:906][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.SKEL_BP_CameraFocus_C:ReceiveTick' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:907][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.SKEL_BP_CameraFocus_C:BndEvt__BP_Room_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:907][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.SKEL_BP_CameraFocus_C:UserConstructionScript' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:907][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.SKEL_BP_CameraFocus_C' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:907][404]LogMetaData: Removing '/Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus_C:ReceiveTick' ref from Metadata '/Game/RollingBP/Blueprints/BP_Room.PackageMetaData'
+[2021.06.07-20.03.58:964][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/BP_CameraFocus" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset" SILENT=true
+[2021.06.07-20.03.59:018][404]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/BP_CameraFocus16228C9C48A8BBAE6CC38EBAC8A3081F.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset'
+[2021.06.07-20.03.59:024][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/BP_Room" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_Room.uasset" SILENT=true
+[2021.06.07-20.03.59:030][404]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/BP_RoomB51B7A0D49C60570ACC46896CF6473A9.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_Room.uasset'
+[2021.06.07-20.03.59:094][404]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.03.59:094][404]LogContentValidation: Display: Validating Blueprint /Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus
+[2021.06.07-20.03.59:094][404]LogContentValidation: Display: Validating ObjectRedirector /Game/RollingBP/Blueprints/BP_Room.BP_Room_C
+[2021.06.07-20.03.59:094][404]LogContentValidation: Display: Validating ObjectRedirector /Game/RollingBP/Blueprints/BP_Room.Default__BP_Room_C
+[2021.06.07-20.03.59:094][404]LogContentValidation: Display: Validating ObjectRedirector /Game/RollingBP/Blueprints/BP_Room.BP_Room
+[2021.06.07-20.04.06:393][829]BlueprintLog: New page: Compile BP_CameraFocus
+[2021.06.07-20.04.06:522][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.06.07-20.04.06:601][829]LogSlate: Took 0.009156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.07-20.04.07:006][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/BP_CameraFocus" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset" SILENT=true
+[2021.06.07-20.04.07:033][853]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/BP_CameraFocusDD545318440207BE84BB68BABE639237.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset'
+[2021.06.07-20.04.07:051][853]AssetCheck: New page: Asset Save: BP_CameraFocus
+[2021.06.07-20.04.07:051][853]LogContentValidation: Display: Validating Blueprint /Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus
+[2021.06.07-20.04.09:859][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.06.07-20.04.20:887][669]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.04.22:134][741]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.06.07-20.04.40:275][809]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.04.41:329][865]LogEditorViewport: Clicking on Actor (LMB): BP_CameraFocus_C (BP_Room3)
+[2021.06.07-20.05.19:642][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.06.07-20.05.56:286][305]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube10)
+[2021.06.07-20.05.56:758][328]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube11)
+[2021.06.07-20.06.34:190][523]Cmd: TRANSACTION UNDO
+[2021.06.07-20.06.34:190][523]LogEditorTransaction: Undo Move Actors
+[2021.06.07-20.07.02:397][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.06.07-20.07.12:085][731]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.07.23:346][387]MapCheck: New page: Map Check
+[2021.06.07-20.07.23:372][387]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:07:23
+[2021.06.07-20.07.23:540][387]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.07.24:338][387]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.07.24:357][387]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.07.25:373][387]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.07.25:373][387]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.07.28:305][387]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.07.28:305][387]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.07.28:305][387]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.07.28:306][387]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.07.28:306][387]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.07.28:566][387]LogEditorBuildUtils: Build time 0:05
+[2021.06.07-20.07.28:581][387]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2021.06.07-20.07.28:613][387]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2021.06.07-20.07.28:626][387]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.07-20.07.28:626][387]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.07-20.07.28:661][388]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.06.07-20.07.28:668][388]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.06.07-20.07.28:725][389]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.06.07-20.07.28:725][389]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.06.07-20.07.28:725][389]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.06.07-20.07.28:732][389]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.06.07-20.07.30:635][390]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.06.07-20.07.30:635][390]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.06.07-20.07.30:635][390]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.07-20.07.30:635][390]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.06.07-20.07.30:838][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.06.07-20.07.33:667][478]Job is a success!
+[2021.06.07-20.07.33:773][478]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2021.06.07-20.07.33:773][478]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.07.33:773][478]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:          0: 7.4% covering 100.0% of volume
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:          1: 7.4% covering 1.6% of volume
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:          2: 85.2% covering 0.3% of volume
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.07.33:774][478]LogVolumetricLightmapImport:          RollingBPExampleMap 			 27 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.06.07-20.07.33:941][478]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.06.07-20.07.34:025][478]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.06.07-20.07.34:025][478]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X128)
+[2021.06.07-20.07.34:025][478]Lightmass on ALIENWARE15R3-T: 1.59 sec total, 218 ms importing, 30 ms setup, 131 ms photons, 1.16 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 8.13 sec total, 1.88 sec processing.
+[2021.06.07-20.07.34:026][478]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 27 meshes in 2 LightmapResourceClusters (13.5 Meshes per cluster).
+[2021.06.07-20.07.34:057][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.06.07-20.07.34:117][478]LogStaticLightingSystem: Illumination: 10.6 sec (179 ms encoding lightmaps, 30 ms encoding shadowmaps)
+[2021.06.07-20.07.34:117][478]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.07.34:117][478]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.07.34:322][478]DumpUnbuiltLightIteractions
+[2021.06.07-20.07.34:322][478]Lights with unbuilt interactions: 0
+[2021.06.07-20.07.34:323][478]
+[2021.06.07-20.07.34:323][478]Primitives with unbuilt interactions: 0
+[2021.06.07-20.07.34:448][478]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.07.34:462][478]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.07.34:511][479]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.07.34:511][479]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:07:34
+[2021.06.07-20.07.34:515][479]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3,59ms to complete.
+[2021.06.07-20.07.35:397][530]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.07.40:797][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2021.06.07-20.07.46:909][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.08.21:630][284]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.08.28:630][698]MapCheck: New page: Map Check
+[2021.06.07-20.08.28:652][698]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.07-20.08.28:652][698]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.07-20.08.28:735][698]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=false
+[2021.06.07-20.08.28:754][698]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.07-20.08.28:754][698]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.07-20.08.28:754][698]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.07-20.08.28:778][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.06.07-20.08.28:790][698]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.08.28:796][698]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.08.28:798][698]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.08.28:800][698]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.07-20.08.29:584][698]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.06.07-20.08.29:584][698]TextureStreamingBuild: Display: Compiling optional shaders took 0.803 seconds.
+[2021.06.07-20.08.29:604][698]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2021.06.07-20.08.29:607][698]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.06.07-20.08.29:627][698]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.06.07-20.08.29:629][698]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:08:29
+[2021.06.07-20.08.29:633][698]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.08.29:641][698]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.08.29:641][698]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.08.29:641][698]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.08.29:642][698]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.08.34:234][698]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.08.34:235][698]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.08.34:235][698]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.08.34:235][698]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.08.34:235][698]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.08.34:455][698]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.07-20.08.34:455][698]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:08:34
+[2021.06.07-20.08.34:489][698]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2021.06.07-20.08.34:489][698]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 33,881ms to complete.
+[2021.06.07-20.08.34:493][698]LogEditorBuildUtils: Build time 0:05
+[2021.06.07-20.08.35:180][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.06.07-20.08.36:724][765]Job is a success!
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:          0: 7.4% covering 100.0% of volume
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:          1: 7.4% covering 1.6% of volume
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:          2: 85.2% covering 0.3% of volume
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.08.36:813][766]LogVolumetricLightmapImport:          RollingBPExampleMap 			 27 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.06.07-20.08.36:974][766]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.06.07-20.08.37:003][766]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X128)
+[2021.06.07-20.08.37:012][766]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 27 meshes in 2 LightmapResourceClusters (13.5 Meshes per cluster).
+[2021.06.07-20.08.37:040][766]Lightmass on ALIENWARE15R3-T: 1.21 sec total, 184 ms importing, 26 ms setup, 129 ms photons, 834 ms processing, 0 ms extra exporting [27/27 mappings]. Threads: 5.83 sec total, 1.64 sec processing.
+[2021.06.07-20.08.37:049][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.06.07-20.08.37:138][766]LogStaticLightingSystem: Illumination: 7.40 sec (126 ms encoding lightmaps, 59 ms encoding shadowmaps)
+[2021.06.07-20.08.37:139][766]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.08.37:139][766]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.08.37:264][766]DumpUnbuiltLightIteractions
+[2021.06.07-20.08.37:264][766]Lights with unbuilt interactions: 0
+[2021.06.07-20.08.37:264][766]
+[2021.06.07-20.08.37:264][766]Primitives with unbuilt interactions: 0
+[2021.06.07-20.08.37:357][766]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.08.37:371][766]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.08.37:418][767]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.08.37:418][767]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:08:37
+[2021.06.07-20.08.37:419][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,439ms to complete.
+[2021.06.07-20.08.52:950][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.09.39:957][475]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.09.39:961][475]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.09.40:623][515]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2021.06.07-20.09.51:866][734]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2021.06.07-20.09.51:909][734]LogStaticMesh: Building static mesh Sm_Long...
+[2021.06.07-20.09.51:924][734]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Sm_Long.Sm_Long
+[2021.06.07-20.09.53:446][813]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/Sm_Long.Sm_Long
+[2021.06.07-20.09.54:843][814]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2021.06.07-20.10.01:271][196]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube19)
+[2021.06.07-20.10.27:107][533]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.07-20.10.32:952][533]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.10.32:994][533]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 7.756667, and the major axis for the object bbox was 3580.000000
+[2021.06.07-20.10.33:071][533]LogMaterial: Display: Missing cached shader map for material FExportMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.06.07-20.10.33:138][533]LogMaterial: Display: Missing cached shader map for material FExportMaterialRenderer BasicShapeMaterial, compiling. 
+[2021.06.07-20.10.33:711][533]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2021.06.07-20.10.33:711][533]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.06.07-20.10.33:711][533]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.06.07-20.10.33:711][533]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.06.07-20.10.34:829][533]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 21
+[2021.06.07-20.10.35:946][533]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.06.07-20.10.36:169][533]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.06.07-20.10.36:169][533]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.06.07-20.10.37:290][533]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.06.07-20.10.37:290][533]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.06.07-20.10.37:849][533]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.06.07-20.10.37:849][533]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.07-20.10.38:534][533]LogProxyLODMeshReduction: Material Distance 46.540001 used to discover textures.
+[2021.06.07-20.10.42:156][533]LogTexture: Display: Building textures: T_Sm_Long2_Diffuse (BGRA8, 1024X1024)
+[2021.06.07-20.10.42:220][533]LogTexture: Display: Building textures: T_Sm_Long2_Normal (BGRA8, 1024X1024)
+[2021.06.07-20.10.42:252][533]LogMaterial: Display: Missing cached shader map for material BaseFlattenMaterial, compiling. 
+[2021.06.07-20.10.42:332][533]LogStaticMesh: Building static mesh SM_Sm_Long2...
+[2021.06.07-20.10.42:332][533]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SM_Sm_Long2.SM_Sm_Long2
+[2021.06.07-20.10.42:335][533]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 49
+[2021.06.07-20.10.42:335][533]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2021.06.07-20.10.42:335][533]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.06.07-20.10.42:335][533]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.06.07-20.10.45:243][679]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/SM_Sm_Long2.SM_Sm_Long2
+[2021.06.07-20.10.47:167][760]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.10.47:173][760]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.10.47:754][795]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.06.07-20.10.47:803][798]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.06.07-20.10.47:936][806]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.06.07-20.10.48:070][814]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.07-20.10.48:803][858]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.07-20.11.39:445][840]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube21)
+[2021.06.07-20.11.43:563][ 80]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.45:430][190]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.49:078][398]Cmd: DELETE
+[2021.06.07-20.11.49:079][398]Cmd: ACTOR DELETE
+[2021.06.07-20.11.49:112][398]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.11.49:192][398]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.06.07-20.11.49:196][398]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2021.06.07-20.11.53:285][639]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube27)
+[2021.06.07-20.11.57:666][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.57:719][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.57:772][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.57:823][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.57:917][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:003][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:079][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:233][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:314][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:380][898]LogActorFactory: Actor Factory created SM_Sm_Long2
+[2021.06.07-20.11.58:445][898]EditorErrors: New page: Actor Reattachment
+[2021.06.07-20.12.24:144][341]Cmd: DELETE
+[2021.06.07-20.12.24:144][341]Cmd: ACTOR DELETE
+[2021.06.07-20.12.24:147][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:148][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:148][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:149][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:149][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:150][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:150][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:150][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:151][341]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.12.24:211][341]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.06.07-20.12.24:219][341]LogEditorActor: Deleted 9 Actors (0.075 secs)
+[2021.06.07-20.12.24:812][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.12.46:906][684]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.46:906][684]LogEditorTransaction: Undo Clicking on Actors
+[2021.06.07-20.12.47:430][695]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.47:430][695]LogEditorTransaction: Undo Delete Actors
+[2021.06.07-20.12.48:702][751]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.48:702][751]LogEditorTransaction: Undo Clicking on Actors
+[2021.06.07-20.12.49:311][770]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.49:311][770]LogEditorTransaction: Undo Clicking on Actors
+[2021.06.07-20.12.49:944][792]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.49:944][792]LogEditorTransaction: Undo Set Location
+[2021.06.07-20.12.51:230][852]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.51:230][852]LogEditorTransaction: Undo Set Location
+[2021.06.07-20.12.51:853][873]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.51:853][873]LogEditorTransaction: Undo Set Location
+[2021.06.07-20.12.52:512][899]Cmd: TRANSACTION UNDO
+[2021.06.07-20.12.52:512][899]LogEditorTransaction: Undo Replace Actor(s)
+[2021.06.07-20.12.54:560][  0]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube24)
+[2021.06.07-20.14.03:896][798]LogSlate: Window 'Message' being destroyed
+[2021.06.07-20.14.03:901][798]Message dialog closed, result: Yes, title: Message, text: SM_Sm_Long2 already exists. Do you want to replace it?
+[2021.06.07-20.14.03:902][798]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.14.03:920][798]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 7.756667, and the major axis for the object bbox was 3580.000000
+[2021.06.07-20.14.08:346][798]LogProxyLODMeshReduction: Material Distance 46.540001 used to discover textures.
+[2021.06.07-20.14.45:541][798]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.06.07-20.14.45:545][798]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.06.07-20.14.45:545][798]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.06.07-20.14.45:545][798]LogTexture: Display: Building textures: T_SM_Sm_Long2_Diffuse (BGRA8, 2048X2048)
+[2021.06.07-20.14.46:140][798]LogStaticMesh: Building static mesh SM_SM_Sm_Long2...
+[2021.06.07-20.14.46:151][798]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/SM_SM_Sm_Long2.SM_SM_Sm_Long2
+[2021.06.07-20.14.47:496][799]LogUObjectHash: Compacting FUObjectHashTables data took  17.42ms
+[2021.06.07-20.14.47:709][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_Auto18011F1FA4D2877B745ED6A89D378FF25.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/RollingBP/Maps/RollingBPExampleMap_Auto1.umap'
+[2021.06.07-20.14.47:725][799]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RollingBP/Maps/RollingBPExampleMap' took 0.421
+[2021.06.07-20.14.47:725][799]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.421
+[2021.06.07-20.14.47:726][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/Sm_Long] ([1] browsable assets)...
+[2021.06.07-20.14.47:741][799]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/Sm_Long.Sm_Long]
+[2021.06.07-20.14.47:741][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/Sm_Long]
+[2021.06.07-20.14.47:741][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Sm_Long" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/Sm_Long_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.47:771][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Sm_Long_Auto1F17193504A87EB34DA7A9A9D1A3B7BB5.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/Sm_Long_Auto1.uasset'
+[2021.06.07-20.14.47:772][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/M_Sm_Long2] ([1] browsable assets)...
+[2021.06.07-20.14.47:784][799]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Meshes/M_Sm_Long2.M_Sm_Long2]
+[2021.06.07-20.14.47:784][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/M_Sm_Long2]
+[2021.06.07-20.14.47:784][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/M_Sm_Long2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.47:808][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_Sm_Long2_Auto12E4C2A884F89CE4F37E766AAB4575ED0.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/M_Sm_Long2_Auto1.uasset'
+[2021.06.07-20.14.47:809][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/T_Sm_Long2_Diffuse] ([1] browsable assets)...
+[2021.06.07-20.14.47:817][799]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/T_Sm_Long2_Diffuse.T_Sm_Long2_Diffuse]
+[2021.06.07-20.14.47:817][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/T_Sm_Long2_Diffuse]
+[2021.06.07-20.14.47:825][799]LogTexture: Display: Building textures: T_Sm_Long2_Diffuse (DXT1, 1024X1024)
+[2021.06.07-20.14.47:881][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_Sm_Long2_Diffuse_Auto139A87407483EF62BE5DDD49C611B70B5.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/T_Sm_Long2_Diffuse_Auto1.uasset'
+[2021.06.07-20.14.47:882][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/T_Sm_Long2_Normal] ([1] browsable assets)...
+[2021.06.07-20.14.47:892][799]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/T_Sm_Long2_Normal.T_Sm_Long2_Normal]
+[2021.06.07-20.14.47:892][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/T_Sm_Long2_Normal]
+[2021.06.07-20.14.47:892][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_Sm_Long2_Normal" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/T_Sm_Long2_Normal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.47:901][799]LogTexture: Display: Building textures: T_Sm_Long2_Normal (BC5, 1024X1024)
+[2021.06.07-20.14.47:947][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_Sm_Long2_Normal_Auto1DD6797DB45A9180D058B8EB2C1A487D8.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/T_Sm_Long2_Normal_Auto1.uasset'
+[2021.06.07-20.14.47:948][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/SM_Sm_Long2] ([1] browsable assets)...
+[2021.06.07-20.14.47:960][799]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/SM_Sm_Long2.SM_Sm_Long2]
+[2021.06.07-20.14.47:960][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/SM_Sm_Long2]
+[2021.06.07-20.14.47:960][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/SM_Sm_Long2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.47:975][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_Sm_Long2_Auto1ABEC3EFB4D394681E9252EA0251B2C68.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/SM_Sm_Long2_Auto1.uasset'
+[2021.06.07-20.14.47:976][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/M_SM_Sm_Long2] ([1] browsable assets)...
+[2021.06.07-20.14.47:988][799]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Meshes/M_SM_Sm_Long2.M_SM_Sm_Long2]
+[2021.06.07-20.14.47:988][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/M_SM_Sm_Long2]
+[2021.06.07-20.14.47:988][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/M_SM_Sm_Long2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.48:000][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_SM_Sm_Long2_Auto18E7B143B4F8B58980317038BE42C2D9A.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/M_SM_Sm_Long2_Auto1.uasset'
+[2021.06.07-20.14.48:001][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/T_SM_Sm_Long2_Diffuse] ([1] browsable assets)...
+[2021.06.07-20.14.48:009][799]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/T_SM_Sm_Long2_Diffuse.T_SM_Sm_Long2_Diffuse]
+[2021.06.07-20.14.48:009][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/T_SM_Sm_Long2_Diffuse]
+[2021.06.07-20.14.48:012][799]LogTexture: Display: Building textures: T_SM_Sm_Long2_Diffuse (DXT1, 2048X2048)
+[2021.06.07-20.14.48:346][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_SM_Sm_Long2_Diffuse_Auto14EE4F49D4107E0EE81CDABBDFBDD14A6.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/T_SM_Sm_Long2_Diffuse_Auto1.uasset'
+[2021.06.07-20.14.48:347][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/SM_SM_Sm_Long2] ([1] browsable assets)...
+[2021.06.07-20.14.48:360][799]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/SM_SM_Sm_Long2.SM_SM_Sm_Long2]
+[2021.06.07-20.14.48:361][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/SM_SM_Sm_Long2]
+[2021.06.07-20.14.48:361][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/SM_SM_Sm_Long2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.07-20.14.48:373][799]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_SM_Sm_Long2_Auto1668263A64D174C5A411309897BF05F61.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Autosaves/Game/Meshes/SM_SM_Sm_Long2_Auto1.uasset'
+[2021.06.07-20.14.48:374][799]LogFileHelpers: Auto-saving content packages took 0.649
+[2021.06.07-20.15.15:897][442]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.15.15:906][442]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.15.21:383][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.06.07-20.15.21:444][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.06.07-20.15.21:473][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap73934AD949D58E8EF79BD9AD66F86F5F.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.15.21:494][728]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.078
+[2021.06.07-20.15.21:550][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_BuiltData9BB225694937E381847792B049C2AC01.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset'
+[2021.06.07-20.15.21:553][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Sm_Long" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/Sm_Long.uasset" SILENT=true
+[2021.06.07-20.15.21:567][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/Sm_LongDE8DDDAF47E6E504652E0C88AAB2A96D.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/Sm_Long.uasset'
+[2021.06.07-20.15.21:568][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_Sm_Long2.uasset" SILENT=true
+[2021.06.07-20.15.21:584][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_Sm_Long21E036D8B49A8E55EC72FB18266E62B69.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_Sm_Long2.uasset'
+[2021.06.07-20.15.21:593][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_Sm_Long2_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Sm_Long2_Diffuse.uasset" SILENT=true
+[2021.06.07-20.15.21:618][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_Sm_Long2_Diffuse77F8A8D8450ECBB879C3FF904BEA0E99.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Sm_Long2_Diffuse.uasset'
+[2021.06.07-20.15.21:628][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_Sm_Long2_Normal" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Sm_Long2_Normal.uasset" SILENT=true
+[2021.06.07-20.15.21:667][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_Sm_Long2_NormalC4BDDF214CE7312B678E3EA5987A10FE.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Sm_Long2_Normal.uasset'
+[2021.06.07-20.15.21:668][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Sm_Long2.uasset" SILENT=true
+[2021.06.07-20.15.21:678][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_Sm_Long2F9A6439A411D06CD7509ACA46145BBBC.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Sm_Long2.uasset'
+[2021.06.07-20.15.21:679][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_SM_Sm_Long2.uasset" SILENT=true
+[2021.06.07-20.15.21:686][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_SM_Sm_Long2D63019C84AC12A73E741A69CB51AC106.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_SM_Sm_Long2.uasset'
+[2021.06.07-20.15.21:695][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_SM_Sm_Long2_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_SM_Sm_Long2_Diffuse.uasset" SILENT=true
+[2021.06.07-20.15.21:775][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_SM_Sm_Long2_DiffuseADD1176D41E37F4C6D1242AEA0C6692B.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_SM_Sm_Long2_Diffuse.uasset'
+[2021.06.07-20.15.21:776][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_SM_Sm_Long2" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_SM_Sm_Long2.uasset" SILENT=true
+[2021.06.07-20.15.21:786][728]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_SM_Sm_Long2F0917BC845D27C01190F10900DAB85F3.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_SM_Sm_Long2.uasset'
+[2021.06.07-20.15.21:806][728]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/RollingBP/Maps/RollingBPExampleMap_BuiltData.RollingBPExampleMap_BuiltData
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_SM_Sm_Long2.SM_SM_Sm_Long2
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating Texture2D /Game/Meshes/T_SM_Sm_Long2_Diffuse.T_SM_Sm_Long2_Diffuse
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Meshes/M_SM_Sm_Long2.M_SM_Sm_Long2
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Sm_Long.Sm_Long
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Meshes/M_Sm_Long2.M_Sm_Long2
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating Texture2D /Game/Meshes/T_Sm_Long2_Diffuse.T_Sm_Long2_Diffuse
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating Texture2D /Game/Meshes/T_Sm_Long2_Normal.T_Sm_Long2_Normal
+[2021.06.07-20.15.21:808][728]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_Sm_Long2.SM_Sm_Long2
+[2021.06.07-20.15.29:265][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.06.07-20.15.31:306][146]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.07-20.15.31:558][146]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.15.31:559][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.15.31:809][146]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.15.31:809][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.15.31:839][146]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Meshes/Sm_Long.Sm_Long
+	Asset Name: /Game/Meshes/SM_Sm_Long2.SM_Sm_Long2
+[2021.06.07-20.15.32:723][146]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.06.07-20.15.32:758][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.06.07-20.15.32:787][146]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.06.07-20.15.32:812][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.06.07-20.15.35:013][275]LogActorFactory: Actor Factory created SM_SM_Sm_Long2
+[2021.06.07-20.15.35:664][313]LogActorFactory: Actor Factory created SM_SM_Sm_Long2
+[2021.06.07-20.15.44:652][837]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/SM_SM_Sm_Long2.SM_SM_Sm_Long2
+[2021.06.07-20.15.56:041][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.16.24:874][182]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube33)
+[2021.06.07-20.16.28:726][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SM_Sm_Long2)
+[2021.06.07-20.16.29:510][452]Cmd: DELETE
+[2021.06.07-20.16.29:512][452]Cmd: ACTOR DELETE
+[2021.06.07-20.16.29:526][452]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.16.29:556][452]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.06.07-20.16.29:566][452]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2021.06.07-20.16.38:004][954]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube32)
+[2021.06.07-20.16.59:333][639]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.16.59:361][639]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 7.756667, and the major axis for the object bbox was 3580.000000
+[2021.06.07-20.17.01:776][639]LogProxyLODMeshReduction: Material Distance 46.540001 used to discover textures.
+[2021.06.07-20.17.14:642][639]LogTexture: Display: Building textures: T_SM_LongPlane_Diffuse (BGRA8, 2048X2048)
+[2021.06.07-20.17.14:829][639]LogStaticMesh: Building static mesh SM_SM_LongPlane...
+[2021.06.07-20.17.14:831][639]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SM_SM_LongPlane.SM_SM_LongPlane
+[2021.06.07-20.17.20:656][981]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.17.20:661][981]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.17.25:839][286]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/SM_SM_LongPlane.SM_SM_LongPlane
+[2021.06.07-20.17.36:347][890]LogEditorTransaction: Undo Create Capsule Collision
+[2021.06.07-20.17.40:103][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_SM_LongPlane" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_SM_LongPlane.uasset" SILENT=true
+[2021.06.07-20.17.40:115][ 91]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_SM_LongPlaneAC8CE3EC4066EE516424C385D8AAA80F.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_SM_LongPlane.uasset'
+[2021.06.07-20.17.40:130][ 91]AssetCheck: New page: Asset Save: SM_SM_LongPlane
+[2021.06.07-20.17.40:130][ 91]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_SM_LongPlane.SM_SM_LongPlane
+[2021.06.07-20.17.42:975][246]LogActorFactory: Actor Factory created SM_SM_LongPlane
+[2021.06.07-20.17.44:210][318]LogActorFactory: Actor Factory created SM_SM_LongPlane
+[2021.06.07-20.17.47:251][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.06.07-20.17.54:376][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2021.06.07-20.17.55:625][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.06.07-20.18.10:077][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.06.07-20.18.21:220][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.06.07-20.18.34:463][268]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2021.06.07-20.18.44:559][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2021.06.07-20.18.54:119][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SM_LongPlane)
+[2021.06.07-20.18.54:947][421]Cmd: DELETE
+[2021.06.07-20.18.54:947][421]Cmd: ACTOR DELETE
+[2021.06.07-20.18.54:950][421]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.18.54:981][421]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.06.07-20.18.54:995][421]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2021.06.07-20.18.57:935][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.07-20.18.58:971][579]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.07-20.18.59:089][579]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.18.59:089][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.18.59:200][579]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.18.59:200][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.18.59:220][579]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/Meshes/M_Sm_Long2.M_Sm_Long2
+	Asset Name: /Game/Meshes/M_SM_LongPlane.M_SM_LongPlane
+	Asset Name: /Game/Meshes/M_SM_Sm_Long2.M_SM_Sm_Long2
+	Asset Name: /Game/Meshes/SM_SM_LongPlane.SM_SM_LongPlane
+	Asset Name: /Game/Meshes/SM_SM_Sm_Long2.SM_SM_Sm_Long2
+	Asset Name: /Game/Meshes/T_Sm_Long2_Diffuse.T_Sm_Long2_Diffuse
+	Asset Name: /Game/Meshes/T_Sm_Long2_Normal.T_Sm_Long2_Normal
+	Asset Name: /Game/Meshes/T_SM_LongPlane_Diffuse.T_SM_LongPlane_Diffuse
+	Asset Name: /Game/Meshes/T_SM_Sm_Long2_Diffuse.T_SM_Sm_Long2_Diffuse
+[2021.06.07-20.18.59:737][579]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2021.06.07-20.19.01:714][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2021.06.07-20.19.01:745][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.06.07-20.19.01:772][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.07-20.19.01:797][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.07-20.19.01:822][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.06.07-20.19.01:850][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.06.07-20.19.01:876][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.07-20.19.01:904][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.06.07-20.19.01:929][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.07-20.19.02:473][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube36)
+[2021.06.07-20.19.35:629][156]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.19.35:658][156]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 7.756667, and the major axis for the object bbox was 3580.000000
+[2021.06.07-20.19.38:352][156]LogProxyLODMeshReduction: Material Distance 46.540001 used to discover textures.
+[2021.06.07-20.19.50:593][156]LogTexture: Display: Building textures: T_Long_Diffuse (BGRA8, 2048X2048)
+[2021.06.07-20.19.50:801][156]LogStaticMesh: Building static mesh SM_Long...
+[2021.06.07-20.19.50:803][156]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SM_Long.SM_Long
+[2021.06.07-20.20.52:537][852]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.20.52:543][852]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.20.53:744][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.06.07-20.20.53:806][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.07-20.20.53:843][922]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMapCCE265D7424D1DE56CE6F283C1D9BAA3.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.20.53:864][922]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.083
+[2021.06.07-20.20.53:876][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_Long" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_Long.uasset" SILENT=true
+[2021.06.07-20.20.53:887][922]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_Long374B22244D28EC316A8F949A3E8B4402.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_Long.uasset'
+[2021.06.07-20.20.53:895][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_Long_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Long_Diffuse.uasset" SILENT=true
+[2021.06.07-20.20.53:899][922]LogTexture: Display: Building textures: T_Long_Diffuse (DXT1, 2048X2048)
+[2021.06.07-20.20.54:124][922]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_Long_DiffuseA0CE63FC4821541E36CD35AD64A8326D.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_Long_Diffuse.uasset'
+[2021.06.07-20.20.54:135][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Long" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Long.uasset" SILENT=true
+[2021.06.07-20.20.54:148][922]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_Long3B8B92AD4408C4A5164B9FB3C6BB8833.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Long.uasset'
+[2021.06.07-20.20.54:162][922]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.20.54:162][922]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.20.54:162][922]LogContentValidation: Display: Validating Texture2D /Game/Meshes/T_Long_Diffuse.T_Long_Diffuse
+[2021.06.07-20.20.54:162][922]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Meshes/M_Long.M_Long
+[2021.06.07-20.20.54:162][922]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_Long.SM_Long
+[2021.06.07-20.20.56:437][ 58]Cmd: DELETE
+[2021.06.07-20.20.56:437][ 58]Cmd: ACTOR DELETE
+[2021.06.07-20.20.56:440][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:440][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:441][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:441][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:441][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:442][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:442][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:442][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:443][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:443][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.20.56:469][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.06.07-20.20.56:473][ 58]LogEditorActor: Deleted 10 Actors (0.036 secs)
+[2021.06.07-20.20.58:343][170]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.20.58:880][202]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.07:440][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2021.06.07-20.21.10:289][881]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.21.13:532][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2021.06.07-20.21.27:210][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:272][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:334][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:389][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:478][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:530][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:611][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:754][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:861][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.27:961][859]LogActorFactory: Actor Factory created SM_Long
+[2021.06.07-20.21.28:053][859]EditorErrors: New page: Actor Reattachment
+[2021.06.07-20.21.38:683][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube19)
+[2021.06.07-20.21.46:235][933]Cmd: DELETE
+[2021.06.07-20.21.46:235][933]Cmd: ACTOR DELETE
+[2021.06.07-20.21.46:237][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:238][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:238][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:239][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:240][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:241][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:242][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:243][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:244][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:245][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.21.46:276][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.06.07-20.21.46:281][933]LogEditorActor: Deleted 10 Actors (0.048 secs)
+[2021.06.07-20.21.47:829][ 26]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.22.32:263][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long2)
+[2021.06.07-20.22.40:946][192]Cmd: DELETE
+[2021.06.07-20.22.40:946][192]Cmd: ACTOR DELETE
+[2021.06.07-20.22.40:950][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:951][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:951][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:952][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:952][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:953][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:953][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:954][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:954][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:955][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:955][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:956][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:956][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:957][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:958][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:961][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:961][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:962][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.22.40:992][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.06.07-20.22.41:015][192]LogEditorActor: Deleted 18 Actors (0.069 secs)
+[2021.06.07-20.22.41:976][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.07-20.22.42:023][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.06.07-20.22.42:046][247]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMapC29CEB7340A47452F7AE45A02A6FE47D.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.22.42:063][247]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.068
+[2021.06.07-20.22.42:075][247]AssetCheck: New page: Asset Save: RollingBPExampleMap
+[2021.06.07-20.22.42:075][247]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.22.43:646][339]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/SM_Long.SM_Long
+[2021.06.07-20.22.47:734][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.06.07-20.22.47:757][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_Long" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Long.uasset" SILENT=true
+[2021.06.07-20.22.47:765][560]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_Long8441BBC144E8F4FDEE12CAA2B9AC3582.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_Long.uasset'
+[2021.06.07-20.22.47:777][560]AssetCheck: New page: Asset Save: SM_Long
+[2021.06.07-20.22.47:777][560]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_Long.SM_Long
+[2021.06.07-20.22.51:596][789]MapCheck: New page: Map Check
+[2021.06.07-20.22.51:623][789]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.07-20.22.51:624][789]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.07-20.22.51:750][789]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=false
+[2021.06.07-20.22.51:801][789]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.07-20.22.51:801][789]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.07-20.22.51:801][789]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.07-20.22.51:834][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.06.07-20.22.51:842][789]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.22.51:865][789]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.22.51:869][789]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.22.51:880][789]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.06.07-20.22.51:880][789]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.06.07-20.22.51:880][789]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.06.07-20.22.51:880][789]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.06.07-20.22.51:880][789]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.22.51:881][789]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.07-20.22.53:735][789]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.06.07-20.22.53:735][789]TextureStreamingBuild: Display: Compiling optional shaders took 1.897 seconds.
+[2021.06.07-20.22.53:751][789]LogLevel: Display: Export Material TexCoord Scales took 0.016 seconds.
+[2021.06.07-20.22.53:756][789]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2021.06.07-20.22.53:784][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.07-20.22.53:797][789]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:22:53
+[2021.06.07-20.22.53:820][789]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.22.53:834][789]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.22.53:840][789]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.22.53:849][789]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.22.53:849][789]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.22.58:462][789]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.22.58:462][789]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.22.58:462][789]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.22.58:463][789]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.22.58:463][789]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.22.58:797][789]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.07-20.22.58:798][789]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:22:58
+[2021.06.07-20.22.58:801][789]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2021.06.07-20.22.58:807][789]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 8,717ms to complete.
+[2021.06.07-20.22.58:811][789]LogEditorBuildUtils: Build time 0:07
+[2021.06.07-20.22.59:017][790]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Long, compiling. 
+[2021.06.07-20.22.59:022][790]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Long, compiling. 
+[2021.06.07-20.22.59:082][790]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.06.07-20.22.59:082][790]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.06.07-20.22.59:884][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.06.07-20.23.02:227][906]Job is a success!
+[2021.06.07-20.23.02:337][907]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2021.06.07-20.23.02:337][907]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:          0: 7.1% covering 100.0% of volume
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:          1: 7.1% covering 1.6% of volume
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:          2: 85.7% covering 0.3% of volume
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.23.02:338][907]LogVolumetricLightmapImport:          RollingBPExampleMap 			 28 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.06.07-20.23.02:649][907]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.06.07-20.23.02:744][907]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.06.07-20.23.02:744][907]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
+[2021.06.07-20.23.02:745][907]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
+[2021.06.07-20.23.02:774][907]Lightmass on ALIENWARE15R3-T: 2.18 sec total, 361 ms importing, 28 ms setup, 292 ms photons, 1.43 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 10.0 sec total, 1.75 sec processing.
+[2021.06.07-20.23.02:777][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.06.07-20.23.02:816][907]LogStaticLightingSystem: Illumination: 8.97 sec (319 ms encoding lightmaps, 61 ms encoding shadowmaps)
+[2021.06.07-20.23.02:817][907]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.23.02:817][907]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.23.03:485][907]DumpUnbuiltLightIteractions
+[2021.06.07-20.23.03:485][907]Lights with unbuilt interactions: 0
+[2021.06.07-20.23.03:485][907]
+[2021.06.07-20.23.03:485][907]Primitives with unbuilt interactions: 0
+[2021.06.07-20.23.03:616][907]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.23.03:632][907]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.23.03:673][908]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.23.03:673][908]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:23:03
+[2021.06.07-20.23.03:673][908]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,399ms to complete.
+[2021.06.07-20.26.17:757][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.27.19:695][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.28.16:921][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.28.26:612][252]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Long)
+[2021.06.07-20.28.29:372][413]LogEditorViewport: Clicking Background
+[2021.06.07-20.28.30:223][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.28.53:869][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long2)
+[2021.06.07-20.29.00:110][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2021.06.07-20.29.00:167][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.07-20.29.00:191][248]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap4E4B76C64F4F3143BB57CF9B1F3CA8EB.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.29.00:209][248]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.070
+[2021.06.07-20.29.00:293][248]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_BuiltData73113C92442A6CA2021F8780A863DA9A.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset'
+[2021.06.07-20.29.00:313][248]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.29.00:313][248]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/RollingBP/Maps/RollingBPExampleMap_BuiltData.RollingBPExampleMap_BuiltData
+[2021.06.07-20.29.00:313][248]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.29.02:188][360]MapCheck: New page: Map Check
+[2021.06.07-20.29.02:208][360]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.07-20.29.02:208][360]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.07-20.29.02:304][360]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=false
+[2021.06.07-20.29.02:321][360]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.07-20.29.02:321][360]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.07-20.29.02:321][360]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.07-20.29.02:349][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.06.07-20.29.02:351][360]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.29.02:353][360]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.29.02:355][360]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.29.02:357][360]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.29.02:359][360]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.07-20.29.03:323][360]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.06.07-20.29.03:323][360]TextureStreamingBuild: Display: Compiling optional shaders took 0.972 seconds.
+[2021.06.07-20.29.03:328][360]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2021.06.07-20.29.03:332][360]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.06.07-20.29.03:360][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.06.07-20.29.03:364][360]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:29:03
+[2021.06.07-20.29.03:368][360]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.29.03:373][360]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.29.03:373][360]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.29.03:374][360]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.29.03:374][360]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.29.07:896][360]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.29.07:897][360]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.29.07:897][360]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.29.07:897][360]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.29.07:897][360]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.29.08:073][360]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.07-20.29.08:073][360]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:29:08
+[2021.06.07-20.29.08:073][360]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2021.06.07-20.29.08:073][360]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0,409ms to complete.
+[2021.06.07-20.29.08:075][360]LogEditorBuildUtils: Build time 0:05
+[2021.06.07-20.29.08:306][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.06.07-20.29.10:365][454]Job is a success!
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.016s
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:          0: 7.1% covering 100.0% of volume
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:          1: 7.1% covering 1.6% of volume
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:          2: 85.7% covering 0.3% of volume
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.29.10:459][455]LogVolumetricLightmapImport:          RollingBPExampleMap 			 28 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.06.07-20.29.10:750][455]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.06.07-20.29.10:832][455]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2021.06.07-20.29.10:832][455]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X256)
+[2021.06.07-20.29.10:832][455]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
+[2021.06.07-20.29.10:862][455]Lightmass on ALIENWARE15R3-T: 1.89 sec total, 196 ms importing, 23 ms setup, 292 ms photons, 1.32 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 9.27 sec total, 1.72 sec processing.
+[2021.06.07-20.29.10:864][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.06.07-20.29.10:905][455]LogStaticLightingSystem: Illumination: 7.49 sec (301 ms encoding lightmaps, 51 ms encoding shadowmaps)
+[2021.06.07-20.29.10:905][455]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.29.10:905][455]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.29.11:925][455]DumpUnbuiltLightIteractions
+[2021.06.07-20.29.11:926][455]Lights with unbuilt interactions: 0
+[2021.06.07-20.29.11:926][455]
+[2021.06.07-20.29.11:926][455]Primitives with unbuilt interactions: 0
+[2021.06.07-20.29.12:030][455]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.29.12:043][455]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.29.12:086][456]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.29.12:086][456]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:29:12
+[2021.06.07-20.29.12:086][456]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,317ms to complete.
+[2021.06.07-20.29.47:584][573]MapCheck: New page: Map Check
+[2021.06.07-20.29.47:600][573]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:29:47
+[2021.06.07-20.29.47:606][573]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.29.47:610][573]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.29.47:610][573]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.29.47:611][573]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.29.47:611][573]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.29.52:139][573]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.29.52:139][573]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.29.52:139][573]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.29.52:139][573]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.29.52:139][573]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.29.52:344][573]LogEditorBuildUtils: Build time 0:04
+[2021.06.07-20.29.52:429][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.06.07-20.29.57:105][811]Job is a success!
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.016s
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:          0: 7.1% covering 100.0% of volume
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:          1: 7.1% covering 1.6% of volume
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:          2: 85.7% covering 0.3% of volume
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.29.57:201][813]LogVolumetricLightmapImport:          RollingBPExampleMap 			 28 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.29.57:490][813]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.06.07-20.29.57:490][813]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.06.07-20.29.57:490][813]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.06.07-20.29.57:490][813]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2021.06.07-20.29.57:490][813]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.06.07-20.29.57:491][813]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.06.07-20.29.57:571][813]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2021.06.07-20.29.57:571][813]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X256)
+[2021.06.07-20.29.57:571][813]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
+[2021.06.07-20.29.57:603][813]Lightmass on ALIENWARE15R3-T: 4.38 sec total, 204 ms importing, 24 ms setup, 442 ms photons, 3.67 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 25.7 sec total, 6.99 sec processing.
+[2021.06.07-20.29.57:606][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.06.07-20.29.57:646][813]LogStaticLightingSystem: Illumination: 9.99 sec (296 ms encoding lightmaps, 54 ms encoding shadowmaps)
+[2021.06.07-20.29.57:646][813]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.29.57:646][813]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.29.58:170][813]DumpUnbuiltLightIteractions
+[2021.06.07-20.29.58:171][813]Lights with unbuilt interactions: 0
+[2021.06.07-20.29.58:171][813]
+[2021.06.07-20.29.58:171][813]Primitives with unbuilt interactions: 0
+[2021.06.07-20.29.58:308][813]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.29.58:321][813]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.29.58:367][814]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.29.58:367][814]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:29:58
+[2021.06.07-20.29.58:367][814]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,304ms to complete.
+[2021.06.07-20.30.16:827][920]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-20.30.16:853][920]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.07-20.30.16:876][920]LogPlayLevel: [PlayLevel] Compiling RollingBPExampleMap before play...
+[2021.06.07-20.30.16:983][920]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.06.07-20.30.16:989][920]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (1 blueprints)
+[2021.06.07-20.30.16:989][920]PIE: New page: PIE session: RollingBPExampleMap (8 июн. 2021 г., 00:30:16)
+[2021.06.07-20.30.17:010][920]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.07-20.30.17:015][920]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.07-20.30.17:020][920]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.30.17:055][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034719s)
+[2021.06.07-20.30.17:063][920]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.30.17:069][920]LogPlayLevel: PIE: World Init took: (0.013961s)
+[2021.06.07-20.30.17:069][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.049534s)
+[2021.06.07-20.30.17:100][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.06.07-20.30.17:103][920]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.30.17:107][920]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.30.17:108][920]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.30.17:114][920]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.30.17:114][920]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.30.17:126][920]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.30.17:126][920]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.30.17:142][920]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.30.17:145][920]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.30.17:145][920]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.30.17:146][920]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.30.17:148][920]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.30.17:148][920]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.30.17:149][920]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.30.17:162][920]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.30.17:162][920]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.30.17:162][920]LogInit: FAudioDevice initialized.
+[2021.06.07-20.30.17:163][920]LogAudio: Display: Audio Device (ID: 2) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.30.17:205][920]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.07-20.30.17:220][920]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2021.06.07-22.30.17
+[2021.06.07-20.30.17:223][920]LogWorld: Bringing up level for play took: 0.004819
+[2021.06.07-20.30.17:228][920]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.06.07-20.30.17:259][920]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0018 seconds. Added 20 classes and 0 folders.
+[2021.06.07-20.30.17:269][920]PIE: Server logged in
+[2021.06.07-20.30.17:400][920]PIE: Play in editor total start time 0,558 seconds.
+[2021.06.07-20.30.22:495][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.30.22:495][188]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.30.22:497][188]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.30.22:499][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.30.22:717][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-20.30.22:751][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.30.22:777][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.30.22:781][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.30.22:783][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.30.22:953][188]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.06.07-20.30.22:999][189]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.06.07-20.30.24:559][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long3)
+[2021.06.07-20.30.25:361][326]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Long)
+[2021.06.07-20.30.26:076][366]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Long2)
+[2021.06.07-20.30.26:918][414]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (PhysicsBallBP)
+[2021.06.07-20.30.31:381][679]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-20.30.31:391][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.07-20.30.31:391][679]PIE: New page: PIE session: RollingBPExampleMap (8 июн. 2021 г., 00:30:31)
+[2021.06.07-20.30.31:429][679]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.30.31:443][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013832s)
+[2021.06.07-20.30.31:445][679]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.30.31:445][679]LogPlayLevel: PIE: World Init took: (0.001727s)
+[2021.06.07-20.30.31:445][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.015787s)
+[2021.06.07-20.30.31:526][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.06.07-20.30.31:529][679]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.30.31:529][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.30.31:529][679]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.30.31:529][679]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.30.31:539][679]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.30.31:539][679]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.30.31:546][679]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.30.31:547][679]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.30.31:547][679]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.30.31:547][679]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.30.31:547][679]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.30.31:547][679]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.30.31:547][679]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.30.31:566][679]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.30.31:566][679]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.30.31:566][679]LogInit: FAudioDevice initialized.
+[2021.06.07-20.30.31:566][679]LogAudio: Display: Audio Device (ID: 3) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.30.31:575][679]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.07-20.30.31:576][679]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2021.06.07-22.30.31
+[2021.06.07-20.30.31:576][679]LogWorld: Bringing up level for play took: 0.000736
+[2021.06.07-20.30.31:577][679]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.06.07-20.30.31:578][679]PIE: Server logged in
+[2021.06.07-20.30.31:579][679]PIE: Play in editor total start time 0,189 seconds.
+[2021.06.07-20.30.37:993][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.30.37:993][ 60]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.30.37:994][ 60]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.30.37:994][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.30.38:010][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-20.30.38:073][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.30.38:111][ 60]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.07-20.30.38:111][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.30.38:112][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.30.38:135][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.30.38:139][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.06.07-20.30.38:181][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.06.07-20.30.43:680][387]LogActorFactory: Actor Factory created Cube
+[2021.06.07-20.30.45:170][476]LogActorFactory: Actor Factory created Cube
+[2021.06.07-20.32.53:305][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Long3)
+[2021.06.07-20.32.55:534][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.33.47:286][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.33.47:882][400]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2021.06.07-20.33.48:511][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.06.07-20.33.49:072][466]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube3)
+[2021.06.07-20.34.16:888][378]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.34.16:925][378]LogStaticMesh: Building static mesh DoorHole...
+[2021.06.07-20.34.16:955][378]LogStaticMesh: Built static mesh [0.03s] /Game/DoorHole.DoorHole
+[2021.06.07-20.34.59:738][943]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.34.59:745][943]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.35.04:053][194]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_BuiltData0F2E4D5C4C4F459544E2DE8EC0AB047B.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset'
+[2021.06.07-20.35.04:089][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.06.07-20.35.04:122][194]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMapDA0B96F24784021246933F9A8F765CD6.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.35.04:140][194]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.084
+[2021.06.07-20.35.04:150][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/DoorHole.uasset" SILENT=true
+[2021.06.07-20.35.04:163][194]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/DoorHole4D58A6384C465769E5834099A4F0B1D6.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/DoorHole.uasset'
+[2021.06.07-20.35.04:187][194]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.35.04:187][194]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/RollingBP/Maps/RollingBPExampleMap_BuiltData.RollingBPExampleMap_BuiltData
+[2021.06.07-20.35.04:187][194]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.35.04:187][194]LogContentValidation: Display: Validating StaticMesh /Game/DoorHole.DoorHole
+[2021.06.07-20.35.06:668][342]LogActorFactory: Actor Factory created DoorHole
+[2021.06.07-20.35.07:375][384]LogActorFactory: Actor Factory created DoorHole
+[2021.06.07-20.35.11:082][603]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2021.06.07-20.35.12:507][685]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (DoorHole)
+[2021.06.07-20.35.40:373][460]LogSlate: Window 'Message' being destroyed
+[2021.06.07-20.35.40:386][460]Message dialog closed, result: No, title: Message, text: DoorHole already exists. Do you want to replace it?
+[2021.06.07-20.35.44:688][460]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.35.44:713][460]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 0.343056, and the major axis for the object bbox was 475.000000
+[2021.06.07-20.35.52:402][460]LogProxyLODMeshReduction: Material Distance 2.058333 used to discover textures.
+[2021.06.07-20.36.03:445][460]LogTexture: Display: Building textures: T_DoorHole_Diffuse (BGRA8, 2048X2048)
+[2021.06.07-20.36.03:878][460]LogStaticMesh: Building static mesh SM_DoorHole...
+[2021.06.07-20.36.03:891][460]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.36.18:798][309]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.36.18:807][309]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.36.20:139][387]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.36.27:139][758]LogActorFactory: Actor Factory created SM_DoorHole
+[2021.06.07-20.36.27:562][782]LogActorFactory: Actor Factory created SM_DoorHole
+[2021.06.07-20.36.46:646][885]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2021.06.07-20.36.46:742][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.06.07-20.36.46:793][885]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap4DA30D9A4F9EA0839A8C0D86C5F51953.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.36.46:817][885]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.105
+[2021.06.07-20.36.46:829][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/M_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_DoorHole.uasset" SILENT=true
+[2021.06.07-20.36.46:846][885]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_DoorHoleF51352CC4B506DED09888F819485E5F9.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/M_DoorHole.uasset'
+[2021.06.07-20.36.46:853][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/T_DoorHole_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_DoorHole_Diffuse.uasset" SILENT=true
+[2021.06.07-20.36.46:858][885]LogTexture: Display: Building textures: T_DoorHole_Diffuse (DXT1, 2048X2048)
+[2021.06.07-20.36.47:095][885]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_DoorHole_DiffuseC0AEAC8A483B8C7419F5A680EECC4477.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/T_DoorHole_Diffuse.uasset'
+[2021.06.07-20.36.47:107][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SM_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_DoorHole.uasset" SILENT=true
+[2021.06.07-20.36.47:121][885]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_DoorHole256BA86144BE19632C0F6481D183052F.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/Meshes/SM_DoorHole.uasset'
+[2021.06.07-20.36.47:139][885]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.36.47:141][885]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.36.47:141][885]LogContentValidation: Display: Validating Texture2D /Game/Meshes/T_DoorHole_Diffuse.T_DoorHole_Diffuse
+[2021.06.07-20.36.47:141][885]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.36.47:141][885]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Meshes/M_DoorHole.M_DoorHole
+[2021.06.07-20.36.49:151][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.06.07-20.36.51:056][989]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.07-20.36.54:112][171]Cmd: DELETE
+[2021.06.07-20.36.54:113][171]Cmd: ACTOR DELETE
+[2021.06.07-20.36.54:130][171]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.36.54:155][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.07-20.36.54:158][171]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2021.06.07-20.36.57:163][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.06.07-20.37.00:777][343]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.07-20.37.05:975][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.06.07-20.37.08:760][638]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.07-20.37.09:820][638]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.37.09:822][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.37.09:867][638]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Meshes/M_DoorHole.M_DoorHole
+	Asset Name: /Game/Meshes/SM_DoorHole.SM_DoorHole
+	Asset Name: /Game/Meshes/T_DoorHole_Diffuse.T_DoorHole_Diffuse
+[2021.06.07-20.37.11:072][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.06.07-20.37.11:104][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.06.07-20.37.11:129][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.07-20.37.11:157][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.06.07-20.37.11:185][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.07-20.37.28:195][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorHole)
+[2021.06.07-20.37.39:372][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.37.40:051][360]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2021.06.07-20.37.40:608][390]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.06.07-20.37.45:520][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.37.48:484][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorHole)
+[2021.06.07-20.37.53:831][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.37.57:494][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (DoorHole)
+[2021.06.07-20.38.07:091][960]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (DoorHole)
+[2021.06.07-20.38.38:852][468]LogSlate: Window 'Message' being destroyed
+[2021.06.07-20.38.38:858][468]Message dialog closed, result: Yes, title: Message, text: DoorHole already exists. Do you want to replace it?
+[2021.06.07-20.38.38:858][468]LogSlate: Window 'Create Merged Actor' being destroyed
+[2021.06.07-20.38.38:887][468]LogProxyLODMeshReduction: Spatial Sampling Distance Scale used 0.343056, and the major axis for the object bbox was 475.000000
+[2021.06.07-20.38.46:455][468]LogProxyLODMeshReduction: Material Distance 2.058333 used to discover textures.
+[2021.06.07-20.38.56:245][468]LogTexture: Display: Building textures: T_DoorHole_Diffuse (BGRA8, 2048X2048)
+[2021.06.07-20.38.56:436][468]LogStaticMesh: Building static mesh SM_DoorHole...
+[2021.06.07-20.38.56:441][468]LogStaticMesh: Built static mesh [0.01s] /Game/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.39.01:311][754]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.39.01:319][754]LogSlate: Window 'Merge Actors' being destroyed
+[2021.06.07-20.39.02:575][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.06.07-20.39.02:654][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.07-20.39.02:679][828]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap87D5BFF64DF626F6C98131BE02B449FB.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.39.02:696][828]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.068
+[2021.06.07-20.39.02:708][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/M_DoorHole.uasset" SILENT=true
+[2021.06.07-20.39.02:720][828]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_DoorHoleD46E98F345C98AA486B4EF995826A465.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/M_DoorHole.uasset'
+[2021.06.07-20.39.02:728][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/T_DoorHole_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/T_DoorHole_Diffuse.uasset" SILENT=true
+[2021.06.07-20.39.02:733][828]LogTexture: Display: Building textures: T_DoorHole_Diffuse (DXT1, 2048X2048)
+[2021.06.07-20.39.02:951][828]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_DoorHole_Diffuse1C1D1F4B45D47D52B055E78246308259.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/T_DoorHole_Diffuse.uasset'
+[2021.06.07-20.39.02:964][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset" SILENT=true
+[2021.06.07-20.39.02:976][828]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_DoorHoleE180BAC144188E219EF74EB6CB62F8B4.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset'
+[2021.06.07-20.39.03:004][828]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.39.03:004][828]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.39.03:004][828]LogContentValidation: Display: Validating StaticMesh /Game/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.39.03:004][828]LogContentValidation: Display: Validating Texture2D /Game/T_DoorHole_Diffuse.T_DoorHole_Diffuse
+[2021.06.07-20.39.03:004][828]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/M_DoorHole.M_DoorHole
+[2021.06.07-20.39.07:960][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.06.07-20.39.09:202][193]LogActorFactory: Actor Factory created SM_DoorHole
+[2021.06.07-20.39.11:835][350]LogActorFactory: Actor Factory created SM_DoorHole
+[2021.06.07-20.39.12:463][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2021.06.07-20.39.12:966][412]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2021.06.07-20.39.13:525][443]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2021.06.07-20.39.14:807][517]Cmd: DELETE
+[2021.06.07-20.39.14:807][517]Cmd: ACTOR DELETE
+[2021.06.07-20.39.14:809][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.39.14:809][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.39.14:810][517]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.07-20.39.14:840][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.06.07-20.39.14:844][517]LogEditorActor: Deleted 3 Actors (0.037 secs)
+[2021.06.07-20.39.16:858][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorHole)
+[2021.06.07-20.39.54:179][861]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (PhysicsBallBP)
+[2021.06.07-20.39.55:787][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.06.07-20.39.55:841][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.06.07-20.39.55:865][952]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap456A085045A44AAF38BFDE919CFD853C.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.39.55:884][952]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.068
+[2021.06.07-20.39.55:904][952]AssetCheck: New page: Asset Save: RollingBPExampleMap
+[2021.06.07-20.39.55:904][952]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.39.57:327][ 37]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-20.39.57:341][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.07-20.39.57:341][ 37]PIE: New page: PIE session: RollingBPExampleMap (8 июн. 2021 г., 00:39:57)
+[2021.06.07-20.39.57:344][ 37]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.39.57:375][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031169s)
+[2021.06.07-20.39.57:379][ 37]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.39.57:383][ 37]LogPlayLevel: PIE: World Init took: (0.008134s)
+[2021.06.07-20.39.57:383][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.039679s)
+[2021.06.07-20.39.57:415][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.06.07-20.39.57:417][ 37]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.39.57:418][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.39.57:419][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.39.57:421][ 37]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.39.57:421][ 37]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.39.57:433][ 37]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.39.57:433][ 37]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.39.57:445][ 37]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.39.57:447][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.39.57:447][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.39.57:447][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.39.57:448][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.39.57:448][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.39.57:448][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.39.57:465][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.39.57:465][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.39.57:465][ 37]LogInit: FAudioDevice initialized.
+[2021.06.07-20.39.57:466][ 37]LogAudio: Display: Audio Device (ID: 4) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.39.57:490][ 37]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.07-20.39.57:494][ 37]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2021.06.07-22.39.57
+[2021.06.07-20.39.57:495][ 37]LogWorld: Bringing up level for play took: 0.001647
+[2021.06.07-20.39.57:501][ 37]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.06.07-20.39.57:519][ 37]PIE: Server logged in
+[2021.06.07-20.39.57:520][ 37]PIE: Play in editor total start time 0,183 seconds.
+[2021.06.07-20.40.15:296][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.40.15:296][ 99]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.40.15:296][ 99]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.40.15:296][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.40.15:330][ 99]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-20.40.15:357][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.40.15:385][ 99]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.07-20.40.15:386][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.40.15:387][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.40.15:410][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.40.15:414][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.06.07-20.40.15:457][100]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.06.07-20.40.16:342][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorHole2)
+[2021.06.07-20.40.17:416][212]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.45.49:905][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset" SILENT=true
+[2021.06.07-20.45.49:918][ 86]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_DoorHole62BA563A4DA80C6ACDACA1921D61788B.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset'
+[2021.06.07-20.45.49:932][ 86]AssetCheck: New page: Asset Save: SM_DoorHole
+[2021.06.07-20.45.49:932][ 86]LogContentValidation: Display: Validating StaticMesh /Game/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.45.52:808][258]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-20.45.52:819][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.07-20.45.52:819][258]PIE: New page: PIE session: RollingBPExampleMap (8 июн. 2021 г., 00:45:52)
+[2021.06.07-20.45.52:856][258]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.45.52:869][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012226s)
+[2021.06.07-20.45.52:870][258]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.45.52:870][258]LogPlayLevel: PIE: World Init took: (0.001432s)
+[2021.06.07-20.45.52:870][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.013893s)
+[2021.06.07-20.45.52:905][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.06.07-20.45.52:913][258]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.45.52:913][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.45.52:913][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.45.52:914][258]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.45.52:914][258]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.45.52:923][258]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.45.52:923][258]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.45.52:931][258]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.45.52:932][258]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.45.52:932][258]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.45.52:932][258]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.45.52:932][258]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.45.52:932][258]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.45.52:932][258]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.45.52:950][258]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.45.52:950][258]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.45.52:950][258]LogInit: FAudioDevice initialized.
+[2021.06.07-20.45.52:950][258]LogAudio: Display: Audio Device (ID: 5) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.45.52:963][258]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.07-20.45.52:965][258]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2021.06.07-22.45.52
+[2021.06.07-20.45.52:965][258]LogWorld: Bringing up level for play took: 0.001362
+[2021.06.07-20.45.52:966][258]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.06.07-20.45.52:968][258]PIE: Server logged in
+[2021.06.07-20.45.52:969][258]PIE: Play in editor total start time 0,151 seconds.
+[2021.06.07-20.46.11:306][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.46.11:306][354]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.46.11:306][354]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.46.11:306][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.46.11:325][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-20.46.11:450][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.46.11:503][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.07-20.46.11:503][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.46.11:504][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.46.11:530][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.46.11:534][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.06.07-20.46.11:579][355]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.06.07-20.46.22:499][  9]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-20.46.22:510][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.07-20.46.22:510][  9]PIE: New page: PIE session: RollingBPExampleMap (8 июн. 2021 г., 00:46:22)
+[2021.06.07-20.46.22:510][  9]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.46.22:522][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011620s)
+[2021.06.07-20.46.22:523][  9]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.07-20.46.22:523][  9]LogPlayLevel: PIE: World Init took: (0.001707s)
+[2021.06.07-20.46.22:523][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.013527s)
+[2021.06.07-20.46.22:556][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.06.07-20.46.22:558][  9]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-20.46.22:558][  9]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-20.46.22:558][  9]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-20.46.22:559][  9]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-20.46.22:559][  9]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-20.46.22:568][  9]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-20.46.22:568][  9]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-20.46.22:575][  9]LogAudioMixer: Display: Using Audio Device Динамики / головные телефоны (Realtek Audio)
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-20.46.22:576][  9]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-20.46.22:595][  9]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-20.46.22:595][  9]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-20.46.22:595][  9]LogInit: FAudioDevice initialized.
+[2021.06.07-20.46.22:595][  9]LogAudio: Display: Audio Device (ID: 6) registered with world 'RollingBPExampleMap'.
+[2021.06.07-20.46.22:604][  9]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.07-20.46.22:606][  9]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 60) at 2021.06.07-22.46.22
+[2021.06.07-20.46.22:606][  9]LogWorld: Bringing up level for play took: 0.000887
+[2021.06.07-20.46.22:606][  9]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.06.07-20.46.22:608][  9]PIE: Server logged in
+[2021.06.07-20.46.22:609][  9]PIE: Play in editor total start time 0,1 seconds.
+[2021.06.07-20.46.36:641][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.46.36:642][845]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.07-20.46.36:642][845]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-20.46.36:642][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.46.36:657][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-20.46.36:719][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-20.46.36:758][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-20.46.36:759][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.46.36:760][845]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-20.46.36:784][845]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.06.07-20.46.36:825][846]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.06.07-20.46.37:596][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.06.07-20.46.39:416][998]MapCheck: New page: Map Check
+[2021.06.07-20.46.39:440][998]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.07-20.46.39:441][998]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.07-20.46.39:535][998]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=false
+[2021.06.07-20.46.39:553][998]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.07-20.46.39:553][998]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.07-20.46.39:553][998]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.07-20.46.39:585][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.06.07-20.46.39:589][998]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.46.39:593][998]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.46.39:597][998]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.07-20.46.39:597][998]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.07-20.46.39:597][998]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.46.39:599][998]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.46.39:602][998]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.07-20.46.40:912][998]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.06.07-20.46.40:912][998]TextureStreamingBuild: Display: Compiling optional shaders took 1.324 seconds.
+[2021.06.07-20.46.40:919][998]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2021.06.07-20.46.40:923][998]TextureStreamingBuild: Display: Build Texture Streaming took 0.004 seconds.
+[2021.06.07-20.46.40:948][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.06.07-20.46.40:950][998]LightingResults: New page: Lighting Build - 8 июн. 2021 г., 00:46:40
+[2021.06.07-20.46.40:968][998]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.07-20.46.40:977][998]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.07-20.46.40:982][998]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.07-20.46.40:988][998]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.07-20.46.40:988][998]LogSwarmInterface: [TryOpenConnection] Local Process ID is 31452
+[2021.06.07-20.46.45:515][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.07-20.46.45:516][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.07-20.46.45:516][998]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.07-20.46.45:516][998]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.07-20.46.45:516][998]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.07-20.46.45:827][998]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.07-20.46.45:827][998]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:46:45
+[2021.06.07-20.46.45:828][998]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2021.06.07-20.46.45:829][998]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1,665ms to complete.
+[2021.06.07-20.46.45:833][998]LogEditorBuildUtils: Build time 0:06
+[2021.06.07-20.46.46:371][  4]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.06.07-20.46.53:945][418]Job is a success!
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:          0: 6.3% covering 100.0% of volume
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:          1: 6.3% covering 1.6% of volume
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:          2: 87.5% covering 0.3% of volume
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.07-20.46.54:042][419]LogVolumetricLightmapImport:          RollingBPExampleMap 			 32 bricks 	 100.0% (Persistent Level)
+[2021.06.07-20.46.54:638][419]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.06.07-20.46.54:638][419]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.06.07-20.46.54:638][419]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.06.07-20.46.54:639][419]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2021.06.07-20.46.54:639][419]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.06.07-20.46.54:639][419]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.06.07-20.46.54:782][419]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2021.06.07-20.46.54:782][419]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X512)
+[2021.06.07-20.46.54:782][419]LogStaticLightingSystem: RollingBPExampleMap_BuiltData storing lightmap data for 8 meshes in 2 LightmapResourceClusters (4.0 Meshes per cluster).
+[2021.06.07-20.46.54:815][419]Lightmass on ALIENWARE15R3-T: 7.56 sec total, 411 ms importing, 27 ms setup, 814 ms photons, 6.22 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 43.5 sec total, 19.0 sec processing.
+[2021.06.07-20.46.54:819][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.06.07-20.46.54:851][419]LogStaticLightingSystem: Illumination: 13.8 sec (587 ms encoding lightmaps, 112 ms encoding shadowmaps)
+[2021.06.07-20.46.54:851][419]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.06.07-20.46.54:851][419]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.06.07-20.46.55:542][419]DumpUnbuiltLightIteractions
+[2021.06.07-20.46.55:542][419]Lights with unbuilt interactions: 0
+[2021.06.07-20.46.55:542][419]
+[2021.06.07-20.46.55:542][419]Primitives with unbuilt interactions: 0
+[2021.06.07-20.46.55:619][419]LogTexture: Display: Building textures: NewReflectionComponentTexture39796F0E471525C1BC35C7A7B1E9849F (BGRA8, 128X128)
+[2021.06.07-20.46.55:633][419]LogTexture: Display: Building textures: NewReflectionComponentTexture9A36667A4A7A367B3C4F1780A82F2CCB (BGRA8, 128X128)
+[2021.06.07-20.46.55:677][420]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.07-20.46.55:677][420]MapCheck: New page: RollingBPExampleMap - 8 июн. 2021 г., 00:46:55
+[2021.06.07-20.46.55:677][420]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,33ms to complete.
+[2021.06.07-20.47.25:911][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.06.07-20.47.25:959][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.06.07-20.47.25:987][231]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap70CA17BB467802992E2E0ABBA4B044F1.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.47.26:005][231]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.076
+[2021.06.07-20.47.26:127][231]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_BuiltData0F80FC1A4E888EB746AA23B77129BFF6.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset'
+[2021.06.07-20.47.26:142][231]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.47.26:142][231]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/RollingBP/Maps/RollingBPExampleMap_BuiltData.RollingBPExampleMap_BuiltData
+[2021.06.07-20.47.26:142][231]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.47.47:991][510]LogSlate: Window 'Source Control Login' being destroyed
+[2021.06.07-20.47.51:795][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository
+[2021.06.07-20.47.51:796][719]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository
+[2021.06.07-20.47.52:327][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/DoorHole.uasset" SILENT=true
+[2021.06.07-20.47.52:337][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/DoorHole4304453B4BD48115236B8DA548541349.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/DoorHole.uasset'
+[2021.06.07-20.47.52:339][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/M_DoorHole.uasset" SILENT=true
+[2021.06.07-20.47.52:346][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/M_DoorHole6516984640EA3F1C8021378F9BD4E38F.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/M_DoorHole.uasset'
+[2021.06.07-20.47.52:347][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_DoorHole" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset" SILENT=true
+[2021.06.07-20.47.52:355][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/SM_DoorHoleA85D9BBE4E485B9270F3BA82CEDAC5BF.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/SM_DoorHole.uasset'
+[2021.06.07-20.47.52:365][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/T_DoorHole_Diffuse" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/T_DoorHole_Diffuse.uasset" SILENT=true
+[2021.06.07-20.47.52:374][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/T_DoorHole_DiffuseD57C9FCE4B6FF991294061ADE363607B.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/T_DoorHole_Diffuse.uasset'
+[2021.06.07-20.47.52:375][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/BP_CameraFocus" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset" SILENT=true
+[2021.06.07-20.47.52:406][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/BP_CameraFocusB4B7EE3640AEEEE487FC31ACD62E9510.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset'
+[2021.06.07-20.47.52:408][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RollingBP/Blueprints/BP_Room" FILE="C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_Room.uasset" SILENT=true
+[2021.06.07-20.47.52:414][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/BP_RoomE987504A40032D67084E6E8F0386D786.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Blueprints/BP_Room.uasset'
+[2021.06.07-20.47.52:442][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.07-20.47.52:481][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMapBF876D1E4A1C50A7F39A9590058601B6.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap.umap'
+[2021.06.07-20.47.52:504][719]LogFileHelpers: Saving map 'RollingBPExampleMap' took 0.088
+[2021.06.07-20.47.52:623][719]LogSavePackage: Moving 'C:/Users/marty/Documents/Collab2/UnrealProject/Saved/RollingBPExampleMap_BuiltData02BF34E44B04EE41A7CA6BB85F8AB0BB.tmp' to 'C:/Users/marty/Documents/Collab2/UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset'
+[2021.06.07-20.48.46:615][719]LogSlate: Window 'Submit Files' being destroyed
+[2021.06.07-20.48.48:533][719]LogSourceControl: commit successful: [main 8b0c05a] Map change
+[2021.06.07-20.48.48:709][719]SourceControl: [main 8b0c05a] Map change
+[2021.06.07-20.48.48:709][719]SourceControl:  9 files changed, 2 insertions(+), 1 deletion(-)
+[2021.06.07-20.48.48:709][719]SourceControl:  create mode 100644 UnrealProject/Content/DoorHole.uasset
+[2021.06.07-20.48.48:709][719]SourceControl:  create mode 100644 UnrealProject/Content/M_DoorHole.uasset
+[2021.06.07-20.48.48:709][719]SourceControl:  create mode 100644 UnrealProject/Content/RollingBP/Blueprints/BP_CameraFocus.uasset
+[2021.06.07-20.48.48:709][719]SourceControl:  rewrite UnrealProject/Content/RollingBP/Blueprints/BP_Room.uasset (99%)
+[2021.06.07-20.48.48:709][719]SourceControl:  rewrite UnrealProject/Content/RollingBP/Maps/RollingBPExampleMap_BuiltData.uasset (86%)
+[2021.06.07-20.48.48:709][719]SourceControl:  create mode 100644 UnrealProject/Content/SM_DoorHole.uasset
+[2021.06.07-20.48.48:709][719]SourceControl:  create mode 100644 UnrealProject/Content/T_DoorHole_Diffuse.uasset
+[2021.06.07-20.48.48:716][719]SourceControl: Commited [main 8b0c05a] Map change.
+[2021.06.07-20.48.48:743][720]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating Blueprint /Game/RollingBP/Blueprints/BP_CameraFocus.BP_CameraFocus
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/RollingBP/Maps/RollingBPExampleMap_BuiltData.RollingBPExampleMap_BuiltData
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating ObjectRedirector /Game/RollingBP/Blueprints/BP_Room.BP_Room_C
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating ObjectRedirector /Game/RollingBP/Blueprints/BP_Room.BP_Room
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating StaticMesh /Game/SM_DoorHole.SM_DoorHole
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating Texture2D /Game/T_DoorHole_Diffuse.T_DoorHole_Diffuse
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/M_DoorHole.M_DoorHole
+[2021.06.07-20.48.48:743][720]LogContentValidation: Display: Validating StaticMesh /Game/DoorHole.DoorHole
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository
+[2021.06.07-20.49.17:994][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository
+[2021.06.07-20.49.17:995][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository
+[2021.06.07-20.49.17:995][ 34]SourceControl: fatal: E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'E:/Apps/EpicGames/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository
+[2021.06.07-20.49.18:156][ 34]EditorErrors: Warning: No assets to check in!
